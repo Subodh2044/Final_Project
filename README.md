@@ -2,12 +2,13 @@
 
 **Subject: Airline Passenger Satisfaction**
 
-
 ## Tasks
 
 **Predict passenger satisfaction:**
 What factors lead to customer satisfaction for an Airline?
 
+## Backgound
+One of the most vital parts of a machine learning project is understanding the key features that correlate to the variable which is being predicted. The goal of this task is to determine what features best correlated to customer satisfaction.
 
 ## Data
 - Gender: Gender of the passengers (Female, Male)
