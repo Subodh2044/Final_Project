@@ -14,6 +14,11 @@ Increasing customer satisfaction is a key element for modern businesses  because
 * It is know if a new customer can be satisfied or not, basing on his  personnal information such as : gender, age, type of travel ... ?
 * How we can improve the machine learning classification technique to understand the key features that correlate to the variable which is being predicted.
 
+
+## Technology we used
+The detail technology we used is in below link
+![technology.md](technology.md)
+
 ## Data source: US Airline passenger satisfaction survey
 Source : https://www.kaggle.com/najibmh/us-airline-passenger-satisfaction-survey
 
