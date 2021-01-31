@@ -50,4 +50,4 @@ Source : https://www.kaggle.com/najibmh/us-airline-passenger-satisfaction-survey
 
 Technologies:
 1. Initially we used Tableau to explore and analyze the airline passengar satisfaction survey dataset. Please click the link for dashboards.
-https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=yes
+https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
