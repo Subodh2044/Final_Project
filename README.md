@@ -16,7 +16,7 @@ Increasing customer satisfaction is a key element for modern businesses  because
 
 
 ## Technology we used
-The detail technology we used is in below link
+The detail technology we used is in the link
 ![technology.md](technology.md)
 
 ## Data source: US Airline passenger satisfaction survey
