@@ -2,14 +2,14 @@
 
 ## Subject: Airline Passenger Satisfaction
 
-**Airline_War**
+#### Airline_War
 ![Airline_war](images/airline_war.jfif)
 
 ## Reason selecting the topic:
 Increasing customer satisfaction is a key element for modern businesses  because it not only improves the quality of customer service, but also determines the success or failure of the business in the end. In order to meet customer expectations and achieve higher quality levels, we need to develop a specific model of passenger satisfaction measurement. In this project we use the airline passenger satisfaction survey to show how the machine learning models can be utilized in order to measure passengers’ satisfaction from a variety set of services dimensions, as well as to indicate those dimensions that need to be improved.
 
 
-**Questions we hope to answer with data:**
+## Questions we hope to answer with data:
 * What factors the keys to airline passenger satisfaction?
 * It is know if a new customer can be satisfied or not, basing on his  personnal information such as : gender, age, type of travel ... ?
 * How we can improve the machine learning classification technique to understand the key features that correlate to the variable which is being predicted.
