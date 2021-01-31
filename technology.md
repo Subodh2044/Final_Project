@@ -6,7 +6,14 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 postgre is the database we intend to use, and we will integrate Flask to display the data.
 
 ## Machine Learning
+Classifier: RandomForestClassifier 
+XGBClassifier
+
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+
+And we we combine this decision tree with more decision trees—all using different training and testing sets—then the prediction may be more accurate.
+We can combine weak learners using a speci􀂦c algorithm, like Random Forests, GradientBoostedTree, and XGBoost.
+
 
 ## Dashboard
 In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___. afdsd
