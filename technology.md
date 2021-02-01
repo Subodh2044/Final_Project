@@ -14,3 +14,40 @@ to create a more accurate and robust prediction engine. From the Ensemble Learni
 ## Dashboard 
 We judiciously decided that we will explore and understand Airline Passenger Satisfaction Surevey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards. https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
 
+
+## Statistics for Filter-Based Feature Selection Methods
+Feature selection methods are intended to reduce the number of input variables to those that are believed to be most useful to a model in order to predict the target variable.
+
+Common data types include numerical (such as height) and categorical (such as a label), although each may be further subdivided such as integer and floating point for numerical variables, and boolean, ordinal, or nominal for categorical variables.
+
+*Data_Variable_Types
+![Data_Variable_Types](Data_Variable_Types.png)
+
+
+### statistical measurement method
+**The scikit-learn library provides an implementation of most of the useful statistical measures.**
+
+**Feature_Selection_Methods**
+![Feature_Selection_Methods](Feature_Selection_Methods.png)
+
+**Common regression predictive modeling with different input and output variables.**
+
+**Numerical Input, Numerical Output**
+
+* Pearson’s correlation coefficient (linear)
+* Spearman’s rank coefficient (nonlinear)
+
+**Numerical Input, Categorical Output**
+
+* ANOVA correlation coefficient (linear)
+* Kendall’s rank coefficient (nonlinear)
+
+**Categorical Input, Numerical Output**
+
+* ANOVA correlation coefficient (linear)
+* Kendall’s rank coefficient (nonlinear)
+
+**Categorical Input, Categorical Output**
+
+* Chi-Squared test (contingency tables)
+* Mutual information (information gain) from the field of information theory
