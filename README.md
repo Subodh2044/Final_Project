@@ -22,10 +22,12 @@ The detail technology we used is in the link
 ## FIRST SEGMENT SUMMARIES
 
 1. SQUARE- Subodh: 
+
 We judiciously decided that we will explore and understand Airline Passenger Satisfaction Survey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards.
 https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
 
 2. TRIANGLE- Shannon:
+
 Through Colab, the Pandas technology was used to set-up the Machine Learning model. First, a table was read from a Postgres database into a Pandas dataframe. The features (X) and target (y) were created and all data was transferred to numerical data with the "get dummies" command. The dataframe was then split into train and test dataframes with 291,345 rows (75%) for the test arrays and 97,116 rows (25%) for the train arrays. Next steps include a determination of a machine learning model that will result in the highest accuracy. 
 
 3. CIRCLE- Reno
