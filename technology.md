@@ -15,7 +15,7 @@ to create a more accurate and robust prediction engine. From the Ensemble Learni
 We judiciously decided that we will explore and understand Airline Passenger Satisfaction Surevey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards. https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
 
 
-## 5. Statistics for Filter-Based Feature Selection Methods
+## 5. Filter-Based Feature Data Selection Methods
 Feature selection methods are intended to reduce the number of input variables to those that are believed to be most useful to a model in order to predict the target variable.
 
 Common data types include numerical (such as height) and categorical (such as a label), although each may be further subdivided such as integer and floating point for numerical variables, and boolean, ordinal, or nominal for categorical variables.
