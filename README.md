@@ -35,8 +35,9 @@ Through Colab, the Pandas technology was used to set-up the Machine Learning mod
 For the first segment, we took on the database development and management role. One of the challenges we faced initially was coming to a consensus on a dataset to use. There were many options to choose from, but ultimately we decided on predicting satisfaction levels for airplane passengers on US flights. The original dataset came with a test and train dataset. For the purposes of having a larger dataset for a better performance on the machine learning model, we decided to concatenate the two files into one with each entry being a unique passenger. We started by creating a new relational database (RDS) on the cloud using Amazon Web Services (AWS). We also uploaded the raw data csv files using S3 in AWS. From here, we then used Spark in Google Colab to preprocess and clean the data. We dropped the 'id' and index columns because we didn't see much value in keeping them and then proceeded to drop NAs in the dataset. Simulataneously, we then used the GUI, pgAdmin 4, to create the database schema based off the columns in the finalized dataset. From there, we renamed the columns in Colab to ensure they matched the column names in the schema. After the preprocessing was completed, we then loaded the dataset into a provisional database in PostgresSQL. Finally, we utilized SQL Alchemy to read the Postgres database into Pandas in order for the person in the Traingle role to execute machine learning models. 
 
 4. X- Sungil
-## Role : X Role
+
 The X role will focus on the technology side of the project and provide which tools and what moduls are the best fit for the team project? All of the technology components play a large part in project efficacy, so knowing them beforehand helps smooth the workflow. The details of technologe we will use is issustrated in the following section.
+
 **Technology we used**
 The detail technology we used is in the link
 ![technology.md](https://github.com/Subodh2044/Final_Project/blob/Sungil/technology.md)
