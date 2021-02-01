@@ -25,7 +25,7 @@ Common data types include numerical (such as height) and categorical (such as a 
 ![Data_Variable_Types](images/Data_Variable_Types.png)
 
 
-### statistical measurement method
+### Statistical measurement method
 
 **The scikit-learn library provides an implementation of most of the useful statistical measures.**
 
