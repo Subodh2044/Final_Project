@@ -19,7 +19,7 @@ Increasing customer satisfaction is a key element for modern businesses because 
 The detail technology we used is in the link
 ![technology.md](technology.md)
 
-## FIRST SEGMENT SUMMARIES
+## First Segment Summaries
 
 1. SQUARE- Subodh: 
 
