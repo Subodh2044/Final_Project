@@ -21,14 +21,14 @@ Feature selection methods are intended to reduce the number of input variables t
 Common data types include numerical (such as height) and categorical (such as a label), although each may be further subdivided such as integer and floating point for numerical variables, and boolean, ordinal, or nominal for categorical variables.
 
 *Data_Variable_Types
-![Data_Variable_Types](Data_Variable_Types.png)
+![Data_Variable_Types](images/Data_Variable_Types.png)
 
 
 ### statistical measurement method
 **The scikit-learn library provides an implementation of most of the useful statistical measures.**
 
 **Feature_Selection_Methods**
-![Feature_Selection_Methods](Feature_Selection_Methods.png)
+![Feature_Selection_Methods](images/Feature_Selection_Methods.png)
 
 **Common regression predictive modeling with different input and output variables.**
 
