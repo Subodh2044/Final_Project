@@ -1,6 +1,6 @@
 ##
 ## Data Cleaning and Analysis
-Pandas in python module will be used to clean the data and perform an exploratory analysis. The Extract, Transform, Load (ETL) process to create data pipelines and spilt, encoding, tran the model, and prediction will be completed using Python.
+Pandas in python module will be used to clean the data and perform an exploratory analysis. The Extract, Transform, Load (ETL) process to create data pipelines and spilt, encoding, train the model, and prediction will be completed using Python.
 
 ## Database Storage
 The technologies we utilized for the database development and management were AWS for creating the uploading the datasets to S3 and creating the relational database (RDS) in the cloud. We then used Spark for preprocessing (including dropping columns, renaming columns, dropping NAs, and concatenating data sets) and loading the dataset into a provisional database in Postgres using the GUI, pgAdmin4. Finally, we utilized SQL Alchemy to read the Postgres database into Pandas in order to execute machine learning.
