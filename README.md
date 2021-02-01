@@ -39,7 +39,7 @@ For the first segment, we took on the database development and management role. 
 The X role will focus on the technology side of the project and provide which tools and what moduls are the best fit for the team project? All of the technology components play a large part in project efficacy, so knowing them beforehand helps smooth the workflow. The details of technologe we will use is issustrated in the following section.
 **Technology we used**
 The detail technology we used is in the link
-![technology.md](technology.md)
+![technology.md](https://github.com/Subodh2044/Final_Project/blob/Sungil/technology.md)
 
 
 ## Data source: US Airline passenger satisfaction survey
