@@ -17,7 +17,7 @@ Increasing customer satisfaction is a key element for modern businesses because 
 
 ## Technology
 The detail technology we used is in the link
-![technology.md](technology.md)
+![technology.md](https://github.com/Subodh2044/Final_Project/blob/Sungil/technology.md)
 
 ## First Segment Summaries
 
