@@ -27,4 +27,6 @@ The detail technology we used is in the link
 
 ![Correlation_Pair_Plot](images/sns_pairplot.png)
 
-From the correlation analysis, Gender and Gate_location are no significant role for satisfaction. We drop this factors for airline satisfaction prediction.  
+From the correlation analysis, Gender and Gate_location are no significant role for satisfaction. We drop this factors for airline satisfaction prediction.
+
+test
