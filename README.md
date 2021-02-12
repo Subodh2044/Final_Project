@@ -83,3 +83,12 @@ Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 - Departure Delay in Minutes: Minutes delayed when departure
 - Arrival Delay in Minutes: Minutes delayed when Arrival
 - Satisfaction: Airline satisfaction level(Satisfaction, neutral or dissatisfaction)
+
+## Machine Learning Model
+
+We chose the Airline Passenger dataset from Kaggle for Machine Learning model and initially ran Logistic Regression Model. Since, our dataset was already split intro train and the test dataset, that didn't necessisate us to split the dataset. 
+
+For pre processing purpose we imported the dataset from AWS using Python libraries such as numpy and pandas, then dropped the dependent variable "satisfaction", created dummy datasets for both test and the train dataset creating features. After creating a dummy dataset, new satisfaction targets were created and converted the text labels to numerical values.
+
+After both train and test datasets were prep processed, Logistic Regression model was run to get prediction and actual outcomes with the accuracy of 77.26% for train and 77.42% for test dataset.
+
