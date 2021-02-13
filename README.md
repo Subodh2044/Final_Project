@@ -21,7 +21,7 @@ The detail technology we used is in the link
 
 ## Segment Summaries
 
-**1. SQUARE: **
+**1. SQUARE:**
 
 **Segment 1 (Subodh)**
 We judiciously decided that we will explore and understand Airline Passenger Satisfaction Survey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards.
@@ -48,13 +48,15 @@ From here, we then used Spark in Google Colab to preprocess and clean the data. 
 **Segment 2 (Sungil)**
 Add info about SQL code (union)- just showing code
 
-4. X
+**4. X**
 
 **Segment 1 (Sungil)**
 The X role will focus on the technology side of the project and provide which tools and modules are the best fit for the team project. All of the technology components play a large part in project efficacy, so knowing them beforehand helps smooth the workflow. The details of technologies we will use is issustrated in the prior section.
 
 **Segment 2 (Reno)**
 Start Tableau dashboard/story
+
+
 
 ## Data source: US Airline passenger satisfaction survey
 Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
