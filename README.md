@@ -21,39 +21,39 @@ The detail technology we used is in the link
 
 ## Segment Summaries
 
-1. SQUARE: 
+**1. SQUARE: **
 
-Segment 1 (Subodh)
+**Segment 1 (Subodh)**
 We judiciously decided that we will explore and understand Airline Passenger Satisfaction Survey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards.
 https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
 
-Segment 2 (Shannon)
+**Segment 2 (Shannon)**
 Explain presentation, communication protocol, Github
 
-2. TRIANGLE:
+**2. TRIANGLE:**
 
-Segment 1 (Shannon)
+**Segment 1 (Shannon)**
 Through Colab, the Pandas technology was used to set-up the Machine Learning model. First, a table was read from a Postgres database into a Pandas dataframe. The features (X) and target (y) were created and all data was transferred to numerical data with the "get dummies" and "label encoder" functions. The dataframe was then split into train and test dataframes with 75% of the data for the test array and 25% of the data for the train arrays. Next steps include a determination of a machine learning model that will result in the highest accuracy. 
 
-Segment 2 (Subodh)
+**Segment 2 (Subodh)**
 ML Descriptions and explanations
 
-3. CIRCLE- Reno
+**3. CIRCLE- Reno**
 
-Segment 1 (Reno)
+**Segment 1 (Reno)**
 For the first segment, we took on the database development and management role. One of the challenges we faced initially was coming to a consensus on a dataset to use. There were many options to choose from, but ultimately we decided on predicting satisfaction levels for airplane passengers on US flights. The original dataset came with a test and train dataset. For the purposes of having a larger dataset for a better performance on the machine learning model, we decided to concatenate the two files into one with each entry being a unique passenger. We started by creating a new relational database (RDS) on the cloud using Amazon Web Services (AWS). We also uploaded the raw data csv files using S3 in AWS. 
 
 From here, we then used Spark in Google Colab to preprocess and clean the data. We dropped the 'id' and index columns because we didn't see much value in keeping them and then proceeded to drop NAs in the dataset. Simulataneously, we then used the GUI, pgAdmin 4, to create the database schema based off the columns in the finalized dataset. From there, we renamed the columns in Colab to ensure they matched the column names in the schema. After the preprocessing was completed, we then loaded the dataset into a provisional database in PostgresSQL. Finally, we utilized SQL Alchemy to read the Postgres database into Pandas in order for the person in the Traingle role to execute machine learning models. 
 
-Segment 2 (Sungil)
+**Segment 2 (Sungil)**
 Add info about SQL code (union)- just showing code
 
 4. X
 
-Segment 1 (Sungil)
+**Segment 1 (Sungil)**
 The X role will focus on the technology side of the project and provide which tools and modules are the best fit for the team project. All of the technology components play a large part in project efficacy, so knowing them beforehand helps smooth the workflow. The details of technologies we will use is issustrated in the prior section.
 
-Segment 2 (Reno)
+**Segment 2 (Reno)**
 Start Tableau dashboard/story
 
 ## Data source: US Airline passenger satisfaction survey
