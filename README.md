@@ -28,7 +28,7 @@ We judiciously decided that we will explore and understand Airline Passenger Sat
 https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
 
 **Segment 2 (Shannon)**
-Add presentation link
+https://docs.google.com/presentation/d/1fBrSa42y-jrsIntrrarsqPRVHqabnKQwzn656jAulDA/edit#slide=id.gbb319ac8ce_0_536
 
 ### Communication protocol
 *** Meetings:
