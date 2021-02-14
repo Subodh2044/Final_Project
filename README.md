@@ -28,7 +28,7 @@ We judiciously decided that we will explore and understand Airline Passenger Sat
 https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
 
 **Segment 2 (Shannon)**
-https://docs.google.com/presentation/d/1fBrSa42y-jrsIntrrarsqPRVHqabnKQwzn656jAulDA/edit#slide=id.g6c52a2e8d8_0_177
+Add presentation link
 
 ### Communication protocol
 *** Meetings:
@@ -46,7 +46,7 @@ The group2 slack channel was used to communicate meeting time updates and share 
 Through Colab, the Pandas technology was used to set-up the Machine Learning model. First, a table was read from a Postgres database into a Pandas dataframe. The features (X) and target (y) were created and all data was transferred to numerical data with the "get dummies" and "label encoder" functions. The dataframe was then split into train and test dataframes with 75% of the data for the test array and 25% of the data for the train arrays. Next steps include a determination of a machine learning model that will result in the highest accuracy. 
 
 **Segment 2 (Subodh)**
-ML Descriptions and explanations are below
+ML Descriptions and explanations
 
 **3. CIRCLE- Reno**
 
@@ -111,3 +111,5 @@ After both train and test datasets were prep processed, Logistic Regression mode
 Confusion Matrix
 
 ![image](https://user-images.githubusercontent.com/67131400/107886676-ff419480-6ec6-11eb-84ff-309a4e2c0f70.png)
+
+There are two predicted classe 0 for satisfied and 1 for neutral/dissatisfied. The classifier made the total prediction of 129,465 and in those classifier, 14,725 were predicted to be satisfied but in reality 57,915 were satisfied whereas 47,290 were predicted to be neutral or dissatisfied but classifier resulted in 9,535 customer whose reviews suggested they were neutral or dissatisfied.
