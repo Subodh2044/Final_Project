@@ -28,7 +28,7 @@ We judiciously decided that we will explore and understand Airline Passenger Sat
 https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
 
 **Segment 2 (Shannon)**
-Add presentation link
+https://docs.google.com/presentation/d/1fBrSa42y-jrsIntrrarsqPRVHqabnKQwzn656jAulDA/edit#slide=id.gbb319ac8ce_0_536
 
 ### Communication protocol
 *** Meetings:
@@ -66,7 +66,7 @@ The X role will focus on the technology side of the project and provide which to
 **Segment 2 (Reno)**
 Start Tableau dashboard/story
 
-
+https://public.tableau.com/profile/reno.stephens#!/vizhome/Airline_16131444843650/AirlinePassengerSatisfactionStory
 
 ## Data source: US Airline passenger satisfaction survey
 Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
@@ -110,6 +110,9 @@ After both train and test datasets were prep processed, Logistic Regression mode
 
 Confusion Matrix
 
-![image](https://user-images.githubusercontent.com/67131400/107886676-ff419480-6ec6-11eb-84ff-309a4e2c0f70.png)
+![image](https://user-images.githubusercontent.com/67131400/107887476-0a4af380-6ecc-11eb-93c0-598d69c8b4c3.png)
 
-There are two predicted classe 0 for satisfied and 1 for neutral/dissatisfied. The classifier made the total prediction of 129,465 and in those classifier, 14,725 were predicted to be satisfied but in reality 57,915 were satisfied whereas 47,290 were predicted to be neutral or dissatisfied but classifier resulted in 9,535 customer whose reviews suggested they were neutral or dissatisfied.
+
+For the test dataset, there are two predicted classe 0 for satisfied and 1 for neutral/dissatisfied. The classifier made the total prediction of 129,465 and in those classifier, 14,725 were predicted to be satisfied but in reality 57,915 were satisfied whereas 47,290 were predicted to be neutral or dissatisfied but classifier resulted in 9,535 customer whose reviews suggested they were neutral or dissatisfied.
+
+For the train dataset, there are two predicted classe 0 for satisfied and 1 for neutral/dissatisfied. The classifier made the total prediction of 621,564 and in those classifier, 71,970 were predicted to be satisfied but in reality 280,212 were satisfied whereas 222,924 were predicted to be neutral or dissatisfied but classifier resulted in 46,458 customer whose reviews suggested they were neutral or dissatisfied.
