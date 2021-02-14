@@ -109,3 +109,5 @@ After both train and test datasets were prep processed, Logistic Regression mode
 
 
 Confusion Matrix
+
+![image](https://user-images.githubusercontent.com/67131400/107886676-ff419480-6ec6-11eb-84ff-309a4e2c0f70.png)
