@@ -66,7 +66,7 @@ The X role will focus on the technology side of the project and provide which to
 **Segment 2 (Reno)**
 Start Tableau dashboard/story
 
-
+https://public.tableau.com/profile/reno.stephens#!/vizhome/Airline_16131444843650/AirlinePassengerSatisfactionStory
 
 ## Data source: US Airline passenger satisfaction survey
 Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
