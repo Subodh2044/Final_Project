@@ -102,8 +102,6 @@ We chose the Airline Passenger dataset from Kaggle for Machine Learning model an
 
 For pre processing purpose we imported the dataset from AWS using Python libraries such as numpy and pandas, then dropped the dependent variable "satisfaction", created dummy datasets for both test and the train dataset creating features. After creating a dummy dataset, new satisfaction targets were created and converted the text labels to numerical values.
 
-After both train and test datasets were prep processed, Logistic Regression model was run to get prediction and actual outcomes with the accuracy of 77.26% for train and 77.42% for test dataset.
-![image](https://user-images.githubusercontent.com/67131400/107730652-92a57a80-6cb9-11eb-9ba1-50a4d71389c2.png)
-![image](https://user-images.githubusercontent.com/67131400/107730669-9df8a600-6cb9-11eb-9376-97b69849e051.png)
+After both train and test datasets were prep processed, Logistic Regression model was run to get prediction and actual outcomes with the accuracy of 80.94% for train and 81.26% for test dataset.
 
 
