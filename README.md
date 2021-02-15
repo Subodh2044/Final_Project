@@ -62,10 +62,6 @@ From here, we then used Spark in Google Colab to preprocess and clean the data. 
 
 https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql
 
- 
-
-## 1. Data Cleaning and Analysis
-Pandas in python module will be used to clean the data and perform an exploratory analysis. The Extract, Transform, Load (ETL) process to create data pipelines and spilt, encoding, train the model, and prediction will be completed using Python.
 
 **4. X**
 
