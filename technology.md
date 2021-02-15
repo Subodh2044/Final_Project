@@ -36,22 +36,22 @@ Common data types include numerical (such as height) and categorical (such as a 
 
 ## Common regression predictive modeling with different input and output variables
 
-1. Numerical Input, Numerical Output
+**1. Numerical Input, Numerical Output**
 
 * Pearson’s correlation coefficient (linear)
 * Spearman’s rank coefficient (nonlinear)
 
-2. Numerical Input, Categorical Output
+**2. Numerical Input, Categorical Output**
 
 * ANOVA correlation coefficient (linear)
 * Kendall’s rank coefficient (nonlinear)
 
-3. Categorical Input, Numerical Output
+**3. Categorical Input, Numerical Output**
 
 * ANOVA correlation coefficient (linear)
 * Kendall’s rank coefficient (nonlinear)
 
-4. Categorical Input, Categorical Output
+**4. Categorical Input, Categorical Output**
 
 * Chi-Squared test (contingency tables)
 * Mutual information (information gain) from the field of information theory
