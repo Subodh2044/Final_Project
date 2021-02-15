@@ -56,7 +56,7 @@ Common data types include numerical (such as height) and categorical (such as a 
 * Chi-Squared test (contingency tables)
 * Mutual information (information gain) from the field of information theory
 
-## Roc curve
+## 5. ROC Curve
 
 An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters:
 
@@ -72,3 +72,6 @@ AUC is desirable for the following two reasons:
 
 1. AUC is scale-invariant. It measures how well predictions are ranked, rather than their absolute values.
 2. AUC is classification-threshold-invariant. It measures the quality of the model's predictions irrespective of what classification threshold is chosen.
+
+* Source : https://developers.google.com/machine-learning/crash-course/classification
+
