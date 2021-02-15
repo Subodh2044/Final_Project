@@ -56,7 +56,7 @@ For the first segment, we took on the database development and management role. 
 From here, we then used Spark in Google Colab to preprocess and clean the data. We dropped the 'id' and index columns because we didn't see much value in keeping them and then proceeded to drop NAs in the dataset. Simulataneously, we then used the GUI, pgAdmin 4, to create the database schema based off the columns in the finalized dataset. From there, we renamed the columns in Colab to ensure they matched the column names in the schema. After the preprocessing was completed, we then loaded the dataset into a provisional database in PostgresSQL. Finally, we utilized SQL Alchemy to read the Postgres database into Pandas in order for the person in the Traingle role to execute machine learning models. 
 
 **Segment 2 (Sungil)**
-Add info about SQL code (union)- just showing code
+Union two tables in pgAdmin4- just showing code
 
 **4. X**
 
