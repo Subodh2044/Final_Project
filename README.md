@@ -88,7 +88,7 @@ Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 ![Data_Process](images/merge_and_createtable.png)
 
 *SQL data file to union two tables
-![union_and_createtable.sql]https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql)
+https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql
 
 
 ## Machine Learning Model
