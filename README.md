@@ -18,18 +18,4 @@ The X role will focus on the technology side of the project and provide which to
 The detail technology we used is in the link
 ![technology.md](technology.md)
 
-<<<<<<< HEAD
-## Filter-based feature selection
-**Correlation Table**
 
-![Correlation_Table](images/correlation_table.png)
-
-**Correlation Pair Plot**
-
-![Correlation_Pair_Plot](images/sns_pairplot.png)
-
-From the correlation analysis, Gender and Gate_location are no significant role for satisfaction. We drop this factors for airline satisfaction prediction.
-
-test
-=======
->>>>>>> f9a30ce352d00ded44e2f0bf35db06554f5ab07f
