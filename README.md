@@ -48,7 +48,7 @@ Through Colab, the Pandas technology was used to set-up the Machine Learning mod
 **Segment 2 (Subodh)**
 ML Descriptions and explanations
 
-**3. CIRCLE- Reno**
+**3. CIRCLE:**
 
 **Segment 1 (Reno)**
 For the first segment, we took on the database development and management role. One of the challenges we faced initially was coming to a consensus on a dataset to use. There were many options to choose from, but ultimately we decided on predicting satisfaction levels for airplane passengers on US flights. The original dataset came with a test and train dataset. For the purposes of having a larger dataset for a better performance on the machine learning model, we decided to concatenate the two files into one with each entry being a unique passenger. We started by creating a new relational database (RDS) on the cloud using Amazon Web Services (AWS). We also uploaded the raw data csv files using S3 in AWS. 
@@ -63,7 +63,7 @@ From here, we then used Spark in Google Colab to preprocess and clean the data. 
 https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql
 
 
-**4. X**
+**4. X:**
 
 **Segment 1 (Sungil)**
 The X role will focus on the technology side of the project and provide which tools and modules are the best fit for the team project. All of the technology components play a large part in project efficacy, so knowing them beforehand helps smooth the workflow. The details of technologies we will use is issustrated in the prior section.
@@ -90,8 +90,7 @@ Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 
 *Union two tables using pgAdmin4 **
 
-![Data_Process](images/merge_and_createtable.png)
-
+![sql_union_data](images/merge_and_createtable.png)
 
 
 ## Machine Learning Model
