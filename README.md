@@ -79,15 +79,16 @@ https://public.tableau.com/profile/reno.stephens#!/vizhome/Airline_1613144484365
 ## Data source: US Airline passenger satisfaction survey
 Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 
-**Data Process diagram**
+**Data process diagram**
 
 ![Data_Process](images/dataprocess.png)
 
-*SQL data file to union two tables
+*Union two tables using pgAdmin4 **
 
 ![Data_Process](images/merge_and_createtable.png)
 
-![technology.md](https://github.com/Subodh2044/Final_Project/blob/Sungil/technology.md)
+*SQL data file to union two tables
+![union_and_createtable.sql]https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql)
 
 
 ## Machine Learning Model
