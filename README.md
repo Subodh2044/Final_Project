@@ -82,6 +82,11 @@ Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 **Data Process**
 ![Data_Process](images/dataprocess.png)
 
+*SQL data file to union two tables
+
+![Data_Process](Database/union_and_createtable.sql)
+
+
 ## Machine Learning Model
 
 We chose the Airline Passenger dataset from Kaggle for Machine Learning model and initially ran Logistic Regression Model. Since, our dataset was already split intro train and the test dataset, that didn't necessisate us to split the dataset. 
