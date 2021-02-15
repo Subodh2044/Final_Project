@@ -33,24 +33,42 @@ Common data types include numerical (such as height) and categorical (such as a 
 
 ![Feature_Selection_Methods](images/Feature_Selection_Methods.png)
 
-**Common regression predictive modeling with different input and output variables.**
 
-**Numerical Input, Numerical Output**
+## Common regression predictive modeling with different input and output variables
+
+1. Numerical Input, Numerical Output
 
 * Pearson’s correlation coefficient (linear)
 * Spearman’s rank coefficient (nonlinear)
 
-**Numerical Input, Categorical Output**
+2. Numerical Input, Categorical Output
 
 * ANOVA correlation coefficient (linear)
 * Kendall’s rank coefficient (nonlinear)
 
-**Categorical Input, Numerical Output**
+3. Categorical Input, Numerical Output
 
 * ANOVA correlation coefficient (linear)
 * Kendall’s rank coefficient (nonlinear)
 
-**Categorical Input, Categorical Output**
+4. Categorical Input, Categorical Output
 
 * Chi-Squared test (contingency tables)
 * Mutual information (information gain) from the field of information theory
+
+## Roc curve
+
+An ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters:
+
+1. True Positive Rate (TPR)
+2. False Positive Rate (FPR)
+
+
+![area_under_ROCcurve](images/area_under_curve.png)
+
+Area under the ROC Curve (AUC) provides an aggregate measure of performance across all possible classification thresholds. One way of interpreting AUC is as the probability that the model ranks a random positive example more highly than a random negative example. AUC ranges in value from 0 to 1. A model whose predictions are 100% wrong has an AUC of 0.0; one whose predictions are 100% correct has an AUC of 1.0.
+
+AUC is desirable for the following two reasons:
+
+1. AUC is scale-invariant. It measures how well predictions are ranked, rather than their absolute values.
+2. AUC is classification-threshold-invariant. It measures the quality of the model's predictions irrespective of what classification threshold is chosen.
