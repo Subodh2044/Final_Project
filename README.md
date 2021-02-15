@@ -56,7 +56,16 @@ For the first segment, we took on the database development and management role. 
 From here, we then used Spark in Google Colab to preprocess and clean the data. We dropped the 'id' and index columns because we didn't see much value in keeping them and then proceeded to drop NAs in the dataset. Simulataneously, we then used the GUI, pgAdmin 4, to create the database schema based off the columns in the finalized dataset. From there, we renamed the columns in Colab to ensure they matched the column names in the schema. After the preprocessing was completed, we then loaded the dataset into a provisional database in PostgresSQL. Finally, we utilized SQL Alchemy to read the Postgres database into Pandas in order for the person in the Traingle role to execute machine learning models. 
 
 **Segment 2 (Sungil)**
-Add info about SQL code (union)- just showing code
+ We used Amazon simple stoage service (S3) to store two csv files for airplane service satification data. We then used Spark in Google Colab to preprocess, clean the data and upload data to postgresql. This SQL databae is linked relational database (RDS) on the cloud Amazon Web Services (AWS).
+ Herein we unioned two tables using pgadmin4 and use the merged file to run a machine learning program, SciKitLearn, in Pandas. 
+ The sql quary file to union two tables is displayed in the following link.
+
+https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql
+
+ 
+
+## 1. Data Cleaning and Analysis
+Pandas in python module will be used to clean the data and perform an exploratory analysis. The Extract, Transform, Load (ETL) process to create data pipelines and spilt, encoding, train the model, and prediction will be completed using Python.
 
 **4. X**
 
@@ -87,8 +96,6 @@ Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 
 ![Data_Process](images/merge_and_createtable.png)
 
-*SQL data file to union two tables
-https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql
 
 
 ## Machine Learning Model
