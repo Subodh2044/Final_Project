@@ -96,6 +96,4 @@ Confusion Matrix
 ![image](https://user-images.githubusercontent.com/67131400/108305537-ced05380-716f-11eb-90da-ec4c1e7a0037.png)
 
 
-For the test dataset, there are two predicted classe 0 for satisfied and 1 for neutral/dissatisfied. The classifier made the total prediction of 129,465 and in those classifier, 14,725 were predicted to be satisfied but in reality 57,915 were satisfied whereas 47,290 were predicted to be neutral or dissatisfied but classifier resulted in 9,535 customer whose reviews suggested they were neutral or dissatisfied.
-
-For the train dataset, there are two predicted classe 0 for satisfied and 1 for neutral/dissatisfied. The classifier made the total prediction of 621,564 and in those classifier, 71,970 were predicted to be satisfied but in reality 280,212 were satisfied whereas 222,924 were predicted to be neutral or dissatisfied but classifier resulted in 46,458 customer whose reviews suggested they were neutral or dissatisfied.
+The consufion matrix for the test dataset resulted in the accuracy rate of 81.98% whereas misclasification rate resutlted in 18%.True positive rate is 96.9% and false positive rate 17.6%. False negative rate is 83.8% and the precision rate is 78%.
