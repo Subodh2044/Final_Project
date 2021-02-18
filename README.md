@@ -97,3 +97,6 @@ Confusion Matrix
 
 
 The confusion matrix for the test dataset resulted in the accuracy rate of 81.98% whereas misclasification rate resulted in 18%. True positive rate is 96.9% and false positive rate 17.6%. False negative rate is 83.8% and the precision rate is 78%. The prevalence rate is 51.9%.
+
+## Classification Report
+![image](https://user-images.githubusercontent.com/67131400/108307696-dd206e80-7173-11eb-8311-49a559da376a.png)
