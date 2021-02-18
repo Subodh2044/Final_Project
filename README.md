@@ -92,7 +92,7 @@ After both train and test datasets were prep processed, Logistic Regression mode
 
 Confusion Matrix
 
-![image](https://user-images.githubusercontent.com/67131400/107887476-0a4af380-6ecc-11eb-93c0-598d69c8b4c3.png)
+![image](https://user-images.githubusercontent.com/67131400/108305479-acd6d100-716f-11eb-9cab-8bf7c97adcae.png)
 
 
 For the test dataset, there are two predicted classe 0 for satisfied and 1 for neutral/dissatisfied. The classifier made the total prediction of 129,465 and in those classifier, 14,725 were predicted to be satisfied but in reality 57,915 were satisfied whereas 47,290 were predicted to be neutral or dissatisfied but classifier resulted in 9,535 customer whose reviews suggested they were neutral or dissatisfied.
