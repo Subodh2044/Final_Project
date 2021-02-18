@@ -100,3 +100,7 @@ The confusion matrix for the test dataset resulted in the accuracy rate of 81.98
 
 ## Classification Report
 ![image](https://user-images.githubusercontent.com/67131400/108307696-dd206e80-7173-11eb-8311-49a559da376a.png)
+
+The classification report for train datased showed that the accuracy rate is 81% which is very close to accuracy rate of test dataset. 1 i.e. Satisfaction rate hs 8% higher precision rate than 0 i.e. neutral or dissatisfaction rate whereas neutral or dissatisfaction rate has 1% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 83% for dissatisfaction rate and 79% for satisfaction rate.
+
+
