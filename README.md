@@ -11,9 +11,9 @@ Increasing customer satisfaction is a key element for modern businesses because 
 
 ## Questions we hope to answer with the data:
 * What factors are key to airline passenger satisfaction?
-* Is it known if a new customer can be satisfied or not, based on their personal information such as : gender, age, type of travel ... ?
-* How can we improve the machine learning classification technique to understand the key features that correlate with the variable being predicted?
+* What machine learning model is the best predictor of airline passenger satisfaction?
 
+*Include? (How can we improve the machine learning classification technique to understand the key features that correlate with the variable being predicted?) (Is it known if a new customer can be satisfied or not, based on their personal information such as : gender, age, type of travel ... ?)
 
 ## Technology
 The detail technology we used is in the link
