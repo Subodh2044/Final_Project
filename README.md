@@ -96,7 +96,7 @@ Confusion Matrix
 ![image](https://user-images.githubusercontent.com/67131400/108599815-04846080-7359-11eb-9871-8177cdb6157c.png)
 
 
-The confusion matrix for the test dataset showed that the classifier was correct 81.99% and incorrect 18.01%. Its predicted and actual positivity rate is 81.58% whereas it's false positive rate is 17.70%. The model's prediction and actual negative prediction rate is 82.30%. The presicisoin rate of the model is 78.29% and actual positive rate of occurance in the sample is 43.89%.
+The confusion matrix for the test dataset showed that the classifier was accurate 77.43% and inaccurate 22.57%. Its predicted and actual positivity rate is 74.95% whereas it's false positive rate is 20.63%. The model's prediction and actual negative prediction rate is 79.37%. The presicisoin rate of the model is 73.97% and actual positive rate of occurance in the sample is 43.89%.
 
 ## Classification Report
 ![image](https://user-images.githubusercontent.com/67131400/108599908-7e1c4e80-7359-11eb-8cbd-c2526fa8cbc3.png)
