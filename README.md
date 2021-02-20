@@ -87,7 +87,7 @@ For pre processing purpose we imported the dataset from AWS using Python librari
 
 After both train and test datasets were prep processed, Logistic Regression model was run to get prediction and actual outcomes with the accuracy of 77.43% for test dataset. 
 
-![image](https://user-images.githubusercontent.com/67131400/108305370-70a37080-716f-11eb-9f04-b39dce651baa.png)
+
 
 
 Confusion Matrix
