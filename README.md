@@ -137,3 +137,9 @@ Classification Report
 ![image](https://user-images.githubusercontent.com/70483866/108640692-cd997200-7460-11eb-82a0-6708708e3ae4.png)
 
 The classification report for train datased showed that the accuracy rate is 87% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has an equivalent precision rate as 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 7% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 89% for dissatisfaction rate and 85% for satisfaction rate.
+
+## ML Models on Select Features with R>0.4 on satisfaction
+
+![image](https://user-images.githubusercontent.com/70483866/108641716-6aaad980-7466-11eb-92aa-8011005d01c7.png)
+
+The random forest classifier reported the same consistent accuracy score of 86%, while the accuracy score decreased for the SVM model and increased for the Logistic Regression Model. The four features we included this time around included: Online boarding (R=0.5), class (R=0.49), type_of_travel (R=0.45), and inflight entertainment (R=0.4). We set an arbitrary threshold of R>0.4 in order to be included in the final select features. Whether it was 27 features or 4, the Random Forest Classifier stayed the most consistent with accuracy and also had the least number of false positives, in this case meaning 1,355 passengers were misclassified as being dissatisfied or neutral when they should have actually been classified as satisfied.
