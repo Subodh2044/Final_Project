@@ -5,9 +5,11 @@
 #### Airline_War
 ![Airline_war](images/airline_war.jfif)
 
-## Reason selecting the topic:
-Increasing customer satisfaction is a key element for modern businesses because it not only improves the quality of customer service, but also determines the success or failure of the business in the end. In order to meet customer expectations and achieve higher quality levels, we need to develop a specific model of passenger satisfaction measurement. In this project we use the airline passenger satisfaction survey to show how the machine learning models can be utilized in order to measure passengers’ satisfaction from a variety set of service dimensions, as well as to indicate those dimensions that need to be improved.
+## Topic Background
+In the aviation industry, high-grade customer satisfaction is a key factor to run the business, as the airline industry is very competitive and customer loyalty varies with small changes in the services. Therefore, companies need to understand the passengers’ need to deliver unparalleled experiences to retain customers. Using the airline passenger satisfaction data obtained from Kaggle, we will utilize machine learning models in order to understand the reasons for passenger experience being satisfied or not. Based on that, improvements will be made to provide better service by the airline company. Also, as part of the analysis, we will be able to understand several factors which improve customer satisfaction level. The results will then be pitched to airline executives to determine where things are going well and where there is room for growth and improvement. This will ultimately help retain and bring in more customers and profits for a sustainable business model.
 
+## What We're Trying to Figure Out:
+In our scenario, the airline company wants to identify a customer satisfaction level, based on ratings on various aspects of airline experience. Hence, we will build a supervised machine learning model to classify the customer satisfaction level. More specifically, we will classify customers being satisfied or not and accordingly try to find out the factors related to satisfaction.
 
 ## Questions we hope to answer with the data:
 * What factors are key to airline passenger satisfaction?
