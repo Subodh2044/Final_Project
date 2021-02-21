@@ -110,8 +110,7 @@ ML Model 2: Random Forest Classifier
 ![image](https://user-images.githubusercontent.com/70483866/108640632-7bf0e780-7460-11eb-84d8-8c623a69e30f.png)
 
 Confusion Matrix
-
-![image](https://user-images.githubusercontent.com/70483866/108640643-89a66d00-7460-11eb-8990-4a6c0487d7ef.png)
+![image](https://user-images.githubusercontent.com/70483866/108640657-9d51d380-7460-11eb-95ed-b5b7afee012d.png)
 
 ## Classification Report
-![image](https://user-images.githubusercontent.com/70483866/108640657-9d51d380-7460-11eb-95ed-b5b7afee012d.png)
+![image](https://user-images.githubusercontent.com/70483866/108640643-89a66d00-7460-11eb-8990-4a6c0487d7ef.png)
