@@ -106,6 +106,8 @@ The classification report for train datased showed that the accuracy rate is 77%
 
 ## ML Model 2: Random Forest Classifier
 
+After both train and test datasets were pre-processed, Random Forest Classifier model was run to get prediction and actual outcomes with the accuracy of 86.59% for test dataset.
+
 ![image](https://user-images.githubusercontent.com/70483866/108640543-fbca8200-745f-11eb-896b-46cab7d1315d.png)
 
 ![image](https://user-images.githubusercontent.com/70483866/108640632-7bf0e780-7460-11eb-84d8-8c623a69e30f.png)
@@ -118,7 +120,11 @@ Classification Report
 
 ![image](https://user-images.githubusercontent.com/70483866/108640643-89a66d00-7460-11eb-8990-4a6c0487d7ef.png)
 
+The classification report for train datased showed that the accuracy rate is 87% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 4% lower precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 13% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 89% for dissatisfaction rate and 84% for satisfaction rate.
+
 ## ML Model 3: Support Vector Machine
+
+After both train and test datasets were pre-processed, Support Vector Machine model was run to get prediction and actual outcomes with the accuracy of 87.07% for test dataset.
 
 ![image](https://user-images.githubusercontent.com/70483866/108640675-b9557500-7460-11eb-9f95-aa5f5cb13406.png)
 
@@ -129,3 +135,5 @@ Confusion Matrix
 Classification Report
 
 ![image](https://user-images.githubusercontent.com/70483866/108640692-cd997200-7460-11eb-82a0-6708708e3ae4.png)
+
+The classification report for train datased showed that the accuracy rate is 87% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has an equivalent precision rate as 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 7% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 89% for dissatisfaction rate and 85% for satisfaction rate.
