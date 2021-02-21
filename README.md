@@ -83,7 +83,7 @@ We chose the Airline Passenger dataset from Kaggle for Machine Learning model an
 
 For pre processing purpose we imported the dataset from AWS using Python libraries such as numpy and pandas, then dropped the dependent variable "satisfaction", created dummy datasets for both test and the train dataset creating features. After creating a dummy dataset, new satisfaction targets were created and converted the text labels to numerical values.
 
-ML Model 1: Logistic Regression
+## ML Model 1: Logistic Regression
 
 After both train and test datasets were pre-processed, Logistic Regression model was run to get prediction and actual outcomes with the accuracy of 77.43% for test dataset. 
 
@@ -91,19 +91,18 @@ After both train and test datasets were pre-processed, Logistic Regression model
 
 
 Confusion Matrix
-
 ![image](https://user-images.githubusercontent.com/67131400/108599801-f59dae00-7358-11eb-8e27-edaa630cee6e.png)
 ![image](https://user-images.githubusercontent.com/67131400/108599815-04846080-7359-11eb-9871-8177cdb6157c.png)
 
 
 The confusion matrix for the test dataset showed that the classifier was accurate 77.43% and inaccurate 22.57%. Its predicted and actual positivity rate is 74.95% whereas it's false positive rate is 20.63%. The model's prediction and actual negative prediction rate is 79.37%. The precision rate of the model is 73.97% and actual positive rate of occurance in the sample is 43.89%.
 
-## Classification Report
+Classification Report
 ![image](https://user-images.githubusercontent.com/67131400/108599908-7e1c4e80-7359-11eb-8cbd-c2526fa8cbc3.png)
 
 The classification report for train datased showed that the accuracy rate is 77% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 6% higher precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 4% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 80% for dissatisfaction rate and 74% for satisfaction rate.
 
-ML Model 2: Random Forest Classifier
+## ML Model 2: Random Forest Classifier
 
 ![image](https://user-images.githubusercontent.com/70483866/108640543-fbca8200-745f-11eb-896b-46cab7d1315d.png)
 
@@ -112,5 +111,5 @@ ML Model 2: Random Forest Classifier
 Confusion Matrix
 ![image](https://user-images.githubusercontent.com/70483866/108640657-9d51d380-7460-11eb-95ed-b5b7afee012d.png)
 
-## Classification Report
+Classification Report
 ![image](https://user-images.githubusercontent.com/70483866/108640643-89a66d00-7460-11eb-8990-4a6c0487d7ef.png)
