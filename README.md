@@ -83,6 +83,8 @@ We chose the Airline Passenger dataset from Kaggle for Machine Learning model an
 
 For pre processing purpose we imported the dataset from AWS using Python libraries such as numpy and pandas, then dropped the dependent variable "satisfaction", created dummy datasets for both test and the train dataset creating features. After creating a dummy dataset, new satisfaction targets were created and converted the text labels to numerical values.
 
+ML Model 1: Logistic Regression
+
 After both train and test datasets were pre-processed, Logistic Regression model was run to get prediction and actual outcomes with the accuracy of 77.43% for test dataset. 
 
 ![image](https://user-images.githubusercontent.com/67131400/108599790-e880bf00-7358-11eb-8869-49bddfb138a5.png)
@@ -101,4 +103,15 @@ The confusion matrix for the test dataset showed that the classifier was accurat
 
 The classification report for train datased showed that the accuracy rate is 77% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 6% higher precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 4% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 80% for dissatisfaction rate and 74% for satisfaction rate.
 
+ML Model 2: Random Forest Classifier
 
+![image](https://user-images.githubusercontent.com/70483866/108640543-fbca8200-745f-11eb-896b-46cab7d1315d.png)
+
+![image](https://user-images.githubusercontent.com/70483866/108640632-7bf0e780-7460-11eb-84d8-8c623a69e30f.png)
+
+Confusion Matrix
+
+![image](https://user-images.githubusercontent.com/70483866/108640643-89a66d00-7460-11eb-8990-4a6c0487d7ef.png)
+
+## Classification Report
+![image](https://user-images.githubusercontent.com/70483866/108640657-9d51d380-7460-11eb-95ed-b5b7afee012d.png)
