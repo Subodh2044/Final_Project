@@ -91,6 +91,7 @@ After both train and test datasets were pre-processed, Logistic Regression model
 
 
 Confusion Matrix
+
 ![image](https://user-images.githubusercontent.com/67131400/108599801-f59dae00-7358-11eb-8e27-edaa630cee6e.png)
 ![image](https://user-images.githubusercontent.com/67131400/108599815-04846080-7359-11eb-9871-8177cdb6157c.png)
 
@@ -98,6 +99,7 @@ Confusion Matrix
 The confusion matrix for the test dataset showed that the classifier was accurate 77.43% and inaccurate 22.57%. Its predicted and actual positivity rate is 74.95% whereas it's false positive rate is 20.63%. The model's prediction and actual negative prediction rate is 79.37%. The precision rate of the model is 73.97% and actual positive rate of occurance in the sample is 43.89%.
 
 Classification Report
+
 ![image](https://user-images.githubusercontent.com/67131400/108599908-7e1c4e80-7359-11eb-8cbd-c2526fa8cbc3.png)
 
 The classification report for train datased showed that the accuracy rate is 77% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 6% higher precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 4% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 80% for dissatisfaction rate and 74% for satisfaction rate.
@@ -109,7 +111,21 @@ The classification report for train datased showed that the accuracy rate is 77%
 ![image](https://user-images.githubusercontent.com/70483866/108640632-7bf0e780-7460-11eb-84d8-8c623a69e30f.png)
 
 Confusion Matrix
+
 ![image](https://user-images.githubusercontent.com/70483866/108640657-9d51d380-7460-11eb-95ed-b5b7afee012d.png)
 
 Classification Report
+
 ![image](https://user-images.githubusercontent.com/70483866/108640643-89a66d00-7460-11eb-8990-4a6c0487d7ef.png)
+
+## ML Model 3: Support Vector Machine
+
+![image](https://user-images.githubusercontent.com/70483866/108640675-b9557500-7460-11eb-9f95-aa5f5cb13406.png)
+
+Confusion Matrix
+
+![image](https://user-images.githubusercontent.com/70483866/108640710-dee27e80-7460-11eb-82e5-876d091c5bb1.png)
+
+Classification Report
+
+![image](https://user-images.githubusercontent.com/70483866/108640692-cd997200-7460-11eb-82a0-6708708e3ae4.png)
