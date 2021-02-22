@@ -28,6 +28,10 @@ The detail technology we used is in the link
 
 https://github.com/Subodh2044/Final_Project/blob/Week2/Database/union_and_createtable.sql
 
+**In week 3: Triangle Role**
+
+
+
 ## Data source: US Airline passenger satisfaction survey
 Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 
@@ -44,3 +48,49 @@ Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 ![Data_Process](images/correlation_table.png)
 
 Plot shows that "Gender" and "Gate_location" are not relating to the "satisfaction". We can delete the "Gender" and "Gate_location" for ML.
+
+
+## Random forest classifier
+
+ * A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+ 
+ * Confusion matrix
+
+ - It is a specific table that allows visualization of the performance of an algorithm with two rows and two columns that reports the number of true positives (TP), false positives(FP)), false negatives (FN), and true negatives (TN).
+
+![RF_Confusion matrix](images/RF_confusion_matrix.png)
+
+Out of 14528 actual N or dissatisfied reviewers, 13709 were predicted to be N or dissatisfied (positive), which we call **true positives (TP)**.
+Out of 14528 actual N or dissatisfied reviewers (), 819 were predicted to be satisfied (nagative), which are considered **false negatives (FN)**.
+Out of 11365 actual satisfied reviewers, 2784 were predicted to be N or dissatisfied (positive), and are considered **false positives**.
+Out of 11365 actual satisfied reviewers, 8581 were predicted to be satisfied (nagative) and are considered **true negatives**.
+
+
+ * Classification report
+
+![RF_classification_report](images/RF_classification_report.png)
+
+The **precision** will be "how many are correctly classified among that class"
+
+**Precision = TP/(TP + FP) = (13709/(13709 +2784)) =0.831**
+
+The **recall** means "how many of this class you find over the whole number of element of this class"
+
+**recall (sensitivity) = TP/(TP + FN)=(13709/(13709 +819)) =0.943**
+
+The **f1-score** is the harmonic mean between precision & recall
+
+**F1 = 2(Precision * Sensitivity)/(Precision + Sensitivity) = 2*(0.831*0.943)/(0.831+0.943=0.884**
+
+The **support** is the number of occurence of the given class in the dataset (11425 for (TP + FP) and 11365 for (FP + TN), which is a really well balanced dataset.
+
+## ROC and DET curve
+
+ * A receiver operating characteristic (ROC) curve is a graphical plot that illustrates the diagnostic ability of a binary classifier system. The ROC curve is created by plotting the true positive rate (TPR, probability of detection) against the false positive rate (FPR, probability of false alarm) at various threshold settings. 
+
+ * Area under the curve (AUC) is equal to the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative one (assuming 'positive' ranks higher than 'negative').
+
+ * A detection error tradeoff (DET) graph is a graphical plot of error rates for binary classification systems, plotting the false negative rate (Miss rate) vs. false positive rate.
+
+
+![RF_classification_report](images/roc_and_det_curves.png)
