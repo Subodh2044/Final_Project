@@ -6,3 +6,6 @@ Through Colab, the Pandas technology was used to set-up the Machine Learning mod
 
 ## Week 2 Role:
 https://docs.google.com/presentation/d/1fBrSa42y-jrsIntrrarsqPRVHqabnKQwzn656jAulDA/edit#slide=id.g6c52a2e8d8_0_177
+
+## Week 3 Role:
+https://public.tableau.com/profile/shannon3615#!/vizhome/Feature_Importance/Story1
