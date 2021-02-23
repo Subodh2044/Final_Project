@@ -11,6 +11,7 @@ https://docs.google.com/presentation/d/1fBrSa42y-jrsIntrrarsqPRVHqabnKQwzn656jAu
 https://public.tableau.com/profile/shannon3615#!/vizhome/Feature_Importance/Story1
 
 ## Week 4 Role:
+Prepare presentation
 * Explain Machine Learning Results: confusion matrix and classification report
 * Review Tableau story for four most important features
 
