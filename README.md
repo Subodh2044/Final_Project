@@ -14,6 +14,7 @@ In our scenario, the airline company wants to identify a customer satisfaction l
 ## Questions we hope to answer with the data:
 * What factors are key to airline passenger satisfaction?
 * What machine learning model is the best predictor of airline passenger satisfaction?
+* https://public.tableau.com/profile/shannon3615#!/vizhome/Feature_Importance/Feature_Importance
 
 ## Technology
 The detail technology we used is in the link
