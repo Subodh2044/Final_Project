@@ -36,7 +36,7 @@ https://docs.google.com/presentation/d/1fBrSa42y-jrsIntrrarsqPRVHqabnKQwzn656jAu
 In addition to meeting on Monday and Wednesday evenings, the team created a slack channel titled group2. All additional meetings were scheduled through the slack channel. We scheduled google meets on weekends to review the submission for the week and determine roles for the upcoming week. 
 
 *** Document Organization:
-The team decided to create a file for each week in the team's Github repository. The first week submission materials are located in the "main" branch and the documents for week 2 are located in the "week2" branch. Week 3 and 4 documents will be located in "Week3" and "Week4" branches, respectively.
+The team decided to create a file for each week in the team's Github repository. The first week submission materials are located in the "main" branch and the documents for week 2 are located in the "week2" branch. Week 3 and 4 documents are located in "Week3" branch.
 
 *** Communication between meetings:
 The group2 slack channel was used to communicate meeting time updates and share code/links.
