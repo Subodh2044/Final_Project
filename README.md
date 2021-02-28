@@ -169,7 +169,7 @@ The random forest classifier reported the same consistent accuracy score of 86%,
 
 -Weighing in ratings for all the variables as measure satisfied and neutral and dissatisfied rate on weighted average
 
-## Future Analyses
+## Future Analysis
 
 -Create more detailed survey with 4 select features 
 
