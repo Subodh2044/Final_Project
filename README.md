@@ -163,4 +163,20 @@ The random forest classifier reported the same consistent accuracy score of 86%,
 
 -Weighing in ratings for all the variables as measure satisfied and neutral and dissatisfied rate on weighted average
 
+## Future Analyses
+
+-Create more detailed survey with 4 select features 
+
+-Research passenger satisfaction based on:
+* Airlines
+* Airport
+* Type of Airlplane
+* Safety track record
+* Ticket price
+
+## Limitations
+
+-Original source of dataset is unknown (e.g. credibility and date of data)
+
+-Data dictionary provided is very vague (e.g. lack of distinct difference between online boarding and check in )
 
