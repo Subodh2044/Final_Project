@@ -103,7 +103,7 @@ Confusion Matrix
 ![image](https://user-images.githubusercontent.com/67131400/108599815-04846080-7359-11eb-9871-8177cdb6157c.png)
 
 
-The confusion matrix for the test dataset showed that the classifier was accurate 77.43% and misclassification rate is 22.57%. The model predicted the true positivity rate to be 80.20% which is also a precision rate. The true negative and false positive rate is 73.97% and 20.05% respectively. The sensitivity rate which calculates how well the test can identify true positive is 79.37% whereas sepcificity rate which results in how well the test can identify true negative is 74.95% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
+The confusion matrix for the test dataset from logistic regression showed that the classifier was accurate 77.43% and misclassification rate is 22.57%. The model predicted the true positivity rate to be 80.20% which is also a precision rate. The true negative and false positive rate is 73.97% and 20.05% respectively. The sensitivity rate which calculates how well the test can identify true positive is 79.37% whereas sepcificity rate which results in how well the test can identify true negative is 74.95% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
 
 Classification Report
 
@@ -122,6 +122,8 @@ After both train and test datasets were pre-processed, Random Forest Classifier 
 Confusion Matrix
 
 ![image](https://user-images.githubusercontent.com/70483866/108640657-9d51d380-7460-11eb-95ed-b5b7afee012d.png)
+
+The confusion matrix for the test dataset from random forest classifier showed that the classifier was accurate 86.59% and misclassification rate is 13.41%. The model predicted the true positivity rate to be 85.08% which is also a precision rate. The true negative and false positive rate is 88.92% and 20.68% respectively. The sensitivity rate which calculates how well the test can identify true positive is 92.27% whereas sepcificity rate which results in how well the test can identify true negative is 79.32% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
 
 Classification Report
 
