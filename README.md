@@ -149,7 +149,7 @@ The random forest classifier reported the same consistent accuracy score of 86%,
 
 ## Discussion
 
-- What ML model results in the best classification technique for correlating survey data with satisfaction?
+-What ML model results in the best classification technique for correlating survey data with satisfaction?
 
 * Random Forest Classifier 
 
@@ -157,10 +157,10 @@ The random forest classifier reported the same consistent accuracy score of 86%,
 
 * Least # of False Positives
 
-- Online boarding allows the passenger to check-in in advance of their flight using either the airline's website or app; online boarding is useful for both the passengers and airline staff as it reduces cost by requiring less paper and less staff at check-in counters and saves a lot of time, which in turn saves money for the airline and allows them to provide cheaper flights to customers; it's super convenient because the passenger no longer has to wait in a long line and can simply go straight to security once they arrive to the airport for their flight, saving hours of their time
+-Online boarding allows the passenger to check-in in advance of their flight using either the airline's website or app; online boarding is useful for both the passengers and airline staff as it reduces cost by requiring less paper and less staff at check-in counters and saves a lot of time, which in turn saves money for the airline and allows them to provide cheaper flights to customers; it's super convenient because the passenger no longer has to wait in a long line and can simply go straight to security once they arrive to the airport for their flight, saving hours of their time
 
-- Having satisfaction on a likert scale from 0-5 would provide better insight on on overall passenger satisfaction rather than a binary scale, because there's a difference between satisfactory and excellent that isn't accounted for with a binary scale
+-Having satisfaction on a likert scale from 0-5 would provide better insight on on overall passenger satisfaction rather than a binary scale, because there's a difference between satisfactory and excellent that isn't accounted for with a binary scale
 
-- Weighing in ratings for all the variables as measure satisfied and neutral and dissatisfied rate on weighted average
+-Weighing in ratings for all the variables as measure satisfied and neutral and dissatisfied rate on weighted average
 
 
