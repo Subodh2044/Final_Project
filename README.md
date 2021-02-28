@@ -109,7 +109,7 @@ Classification Report
 
 ![image](https://user-images.githubusercontent.com/67131400/108599908-7e1c4e80-7359-11eb-8cbd-c2526fa8cbc3.png)
 
-The classification report for train datased showed that the accuracy rate is 77% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 6% higher precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 4% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 80% for dissatisfaction rate and 74% for satisfaction rate.
+The classification report for train dataset showed that the accuracy rate is 77% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 6% higher precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 4% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 80% for dissatisfaction rate and 74% for satisfaction rate.
 
 ## ML Model 2: Random Forest Classifier
 
@@ -123,7 +123,7 @@ Confusion Matrix
 
 ![image](https://user-images.githubusercontent.com/70483866/108640657-9d51d380-7460-11eb-95ed-b5b7afee012d.png)
 
-The confusion matrix for the test dataset from random forest classifier showed that the classifier was accurate 86.59% and misclassification rate is 13.41%. The model predicted the true positivity rate to be 85.08% which is also a precision rate. The true negative and false positive rate is 88.92% and 20.68% respectively. The sensitivity rate which calculates how well the test can identify true positive is 92.27% whereas sepcificity rate which results in how well the test can identify true negative is 79.32% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
+The confusion matrix for the test dataset from Random Forest Classifier showed that the classifier was accurate 86.59% and misclassification rate is 13.41%. The model predicted the true positivity rate to be 85.08% which is also a precision rate. The true negative and false positive rate is 88.92% and 20.68% respectively. The sensitivity rate which calculates how well the test can identify true positive is 92.27% whereas sepcificity rate which results in how well the test can identify true negative is 79.32% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
 
 Classification Report
 
@@ -141,7 +141,7 @@ Confusion Matrix
 
 ![image](https://user-images.githubusercontent.com/70483866/108640710-dee27e80-7460-11eb-82e5-876d091c5bb1.png)
 
-The confusion matrix for the test dataset from support vector machine showed that the classifier was accurate 87.07% and misclassification rate is 12.93%. The model predicted the true positivity rate to be 87.17% which is also a precision rate. The true negative and false positive rate is 86.93% and 16.98% respectively. The sensitivity rate which calculates how well the test can identify true positive is 90.24% whereas sepcificity rate which results in how well the test can identify true negative is 83.02% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
+The confusion matrix for the test dataset from Support Vector Machine showed that the classifier was accurate 87.07% and misclassification rate is 12.93%. The model predicted the true positivity rate to be 87.17% which is also a precision rate. The true negative and false positive rate is 86.93% and 16.98% respectively. The sensitivity rate which calculates how well the test can identify true positive is 90.24% whereas sepcificity rate which results in how well the test can identify true negative is 83.02% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
 
 Classification Report
 
