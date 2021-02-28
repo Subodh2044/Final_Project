@@ -12,8 +12,8 @@ In the aviation industry, high-grade customer satisfaction is a key factor to ru
 In our scenario, the airline company wants to identify a customer satisfaction level, based on ratings on various aspects of airline experience. Hence, we will build a supervised machine learning model to classify the customer satisfaction level. More specifically, we will classify customers being satisfied or not and accordingly try to find out the factors related to satisfaction.
 
 ## Questions we hope to answer with the data:
-* What factors are key to airline passenger satisfaction?
-* What machine learning model is the best predictor of airline passenger satisfaction?
+* What factors have the greatest impact on passenger satisfaction?
+* What ML model results in the best classification technique for correlating survey data with satisfaction?
 * https://public.tableau.com/profile/shannon3615#!/vizhome/Feature_Importance/Feature_Importance
 
 ## Technology
@@ -33,10 +33,10 @@ https://docs.google.com/presentation/d/1fBrSa42y-jrsIntrrarsqPRVHqabnKQwzn656jAu
 
 ### Communication protocol
 *** Meetings:
-In addition to meeting on Monday and Wednesday evenings, the team created a slack channel titled group2. All additional meetings were scheduled through the slack channel. We scheduled google meets on weekends to review the submission for the week and determine roles for the upcoming week. 
+In addition to meeting on Monday and Wednesday evenings, the team created a slack channel titled group2. All additional meetings were scheduled through the slack channel. We scheduled google meets or zoom calls on weekends at least once or twice outside of class hours per week to review the submission for the week and determine roles for the upcoming week. 
 
 *** Document Organization:
-The team decided to create a file for each week in the team's Github repository. The first week submission materials are located in the "main" branch and the documents for week 2 are located in the "week2" branch. Week 3 and 4 documents are located in "Week3" branch.
+The team decided to create a file for each week in the team's Github repository. The first week submission materials are located in the "main" branch and the documents for week 2 are located in the "week2" branch. Week 3 documents are located in "Week3" branch and finally the final submission is located in the "Week-4" branch.
 
 *** Communication between meetings:
 The group2 slack channel was used to communicate meeting time updates and share code/links.
@@ -57,7 +57,7 @@ For the first segment, we took on the database development and management role. 
 From here, we then used Spark in Google Colab to preprocess and clean the data. We dropped the 'id' and index columns because we didn't see much value in keeping them and then proceeded to drop NAs in the dataset. Simulataneously, we then used the GUI, pgAdmin 4, to create the database schema based off the columns in the finalized dataset. From there, we renamed the columns in Colab to ensure they matched the column names in the schema. After the preprocessing was completed, we then loaded the dataset into a provisional database in PostgresSQL. Finally, we utilized SQL Alchemy to read the Postgres database into Pandas in order for the person in the Traingle role to execute machine learning models. 
 
 **Segment 2 (Sungil)**
-Union two tables in pgAdmin4- just showing code
+Union two tables in pgAdmin4- just showing code, but not executing it because of project requirement to have two separate tables (test and train in our case).
 
 **4. X**
 
