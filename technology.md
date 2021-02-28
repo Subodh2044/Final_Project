@@ -1,19 +1,18 @@
 ## Technologies
 
 ## 1. Data Cleaning and Analysis
-Pandas in python module will be used to clean the data and perform an exploratory analysis. The Extract, Transform, Load (ETL) process to create data pipelines and spilt, encoding, train the model, and prediction will be completed using Python.
+Pandas in python module will be used to pre-process the data and perform an exploratory analysis. The Extract, Transform, Load (ETL) process to create data pipelines and spilt, encoding, train the model, and prediction will be completed using Python.
 
 ## 2. Database Storage
-The technologies we utilized for the database development and management were AWS for creating the uploading the datasets to S3 and creating the relational database (RDS) in the cloud. We then used Spark for preprocessing (including dropping columns, renaming columns, dropping NAs, and concatenating data sets) and loading the dataset into a provisional database in Postgres using the GUI, pgAdmin4. Finally, we utilized SQL Alchemy to read the Postgres database into Pandas in order to execute machine learning.
+We created a publicly accessible S3 bucket with our two datafiles uploaded to followed by a Database instance with a relational database to connect to our local PostgreSQL server database. We used PySpark to conduct the initial data cleaning of both files and then loaded the data into the Postgre SQL database in the gui pg Admin 4 where we created an ERD to develop a table for the test and train datasets. From here, we utilized SQL alchemy to read the data from the database into pandas for preprocessing and to begin the machine learning process.
 
 ## 3. Machine Learning
-SciKitLearn is the Machine Learning library we'll be using to create a classifier and to train and test setup. Logistic Regression or Decision Tree Model will be applied to create the dicision classifier first, then, a specific algorithm, like Random Forests, GradientBoostedTree, and XGBoost will be cobined with the weak learners. A single weak learner will make inaccurate and imprecise predictions because they are poor at learning adequately as result of limited data, like too few features, or using data points that can't be classified; however, the weak learners are
-valuable because there are models that can combine many weak learners
-to create a more accurate and robust prediction engine. From the Ensemble Learning, the final prediction is based on the accumulated predictions from each algorithm.
+SciKitLearn is the Machine Learning library we'll be using to create a classifier and to train and test setup. Logistic Regression or Decision Tree Model will be applied to create the dicision classifier first, then, a specific algorithm, like Random Forest Classifier, Support Vector Machine, GradientBoostedTree, and XGBoost will be cobined with the weak learners. A single weak learner will make inaccurate and imprecise predictions because they are poor at learning adequately as result of limited data, like too few features, or using data points that can't be classified; however, the weak learners are valuable because there are models that can combine many weak learners to create a more accurate and robust prediction engine. From the Ensemble Learning, the final prediction is based on the accumulated predictions from each algorithm.
 
-## 4. Dashboard 
-We judiciously decided that we will explore and understand Airline Passenger Satisfaction Surevey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards. https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye
+## 4. Dashboard/Visualizations 
+We judiciously decided that we will explore and understand Airline Passenger Satisfaction Surevey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards. https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passenger/Story1?publish=ye, https://public.tableau.com/profile/reno.stephens#!/vizhome/Airline_16131444843650/AirlinePassengerSatisfactionStory, https://public.tableau.com/profile/shannon3615#!/vizhome/Feature_Importance/Feature_Importance
 
+We also utilized the seaborn and matplotlib libraries to create additional visualizations including a heat correlation matrix and feature rank bar chart to name a couple.
 
 ## 5. Filter-Based Feature Selection Methods
 Feature selection methods are intended to reduce the number of input variables to those that are believed to be most useful to a model in order to predict the target variable.
