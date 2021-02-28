@@ -25,7 +25,7 @@ The detail technology we used is in the link
 **1. SQUARE:**
 
 **Segment 1 (Subodh)**
-We judiciously decided that we will explore and understand Airline Passenger Satisfaction Survey dataset by analyzing and creating some dashboards in Tableau. Please click the link below to view dashboards.
+We judiciously decided that we will explore and understand Airline Passenger Satisfaction Survey dataset by analyzing and creating dashboards in Tableau. Please click the link below to view dashboards.
 https://public.tableau.com/profile/subodh.byanjankar#!/vizhome/Air_Passengers/Air_Passenger?publish=yes
 
 **Segment 2 (Shannon)**
