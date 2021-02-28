@@ -141,6 +141,8 @@ Confusion Matrix
 
 ![image](https://user-images.githubusercontent.com/70483866/108640710-dee27e80-7460-11eb-82e5-876d091c5bb1.png)
 
+The confusion matrix for the test dataset from support vector machine showed that the classifier was accurate 87.07% and misclassification rate is 12.93%. The model predicted the true positivity rate to be 87.17% which is also a precision rate. The true negative and false positive rate is 86.93% and 16.98% respectively. The sensitivity rate which calculates how well the test can identify true positive is 90.24% whereas sepcificity rate which results in how well the test can identify true negative is 83.02% and prevalense rate that calculates how often the yes condidtion occurs in the sample is 43.89%.
+
 Classification Report
 
 ![image](https://user-images.githubusercontent.com/70483866/108640692-cd997200-7460-11eb-82a0-6708708e3ae4.png)
