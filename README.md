@@ -142,6 +142,14 @@ Classification Report
 
 The classification report for train datased showed that the accuracy rate is 87% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has an equivalent precision rate as 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 7% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 89% for dissatisfaction rate and 85% for satisfaction rate.
 
+## ROC and DET curve
+
+ * A receiver operating characteristic (ROC) and detection error tradeoff (DET) curves shows the diagnostic ability of a binary classifier system. The ROC curve is created by plotting the true positive rate (TPR) against the false positive rate (FPR). Whereas DET curve is a graphical plot of error rates for binary classification systems, false negative rate (FNR) vs. false positive rate (FPR). Area under the curve (AUC) vale also shows that the Random Forest Classifier has the highest capacity for predictions. 
+
+
+![RF_classification_report](images/roc_and_det_curves.png)
+
+
 ## ML Models on Select Features with R>0.4 on satisfaction
 
 * Correlation Bar Plot for Feature Selection
