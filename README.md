@@ -72,10 +72,6 @@ https://public.tableau.com/profile/reno.stephens#!/vizhome/Airline_1613144484365
 ## Data source: US Airline passenger satisfaction survey
 Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 
-**Data process diagram**
-
-![Data_process_diagram](images/dataprocess.png)
-
 **Database Workflow**
 
 ![image](https://user-images.githubusercontent.com/70483866/109429306-bf97a400-79c0-11eb-9b4c-7cfc59d026c3.png)
