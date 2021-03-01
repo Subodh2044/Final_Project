@@ -83,7 +83,7 @@ We chose the Airline Passenger dataset from Kaggle for Machine Learning model an
 
 For pre processing purpose we imported the dataset from AWS using Python libraries such as numpy and pandas, then dropped the dependent variable "satisfaction", created dummy datasets for both test and the train dataset creating features. After creating a dummy dataset, new satisfaction targets were created and converted the text labels to numerical values.
 
-## ML Model 1: Logistic Regression
+### ML Model 1: Logistic Regression
 
 After both train and test datasets were pre-processed, Logistic Regression model was run to get prediction and actual outcomes with the accuracy of 77.43% for test dataset. 
 
@@ -104,7 +104,7 @@ Classification Report
 
 The classification report for train dataset showed that the accuracy rate is 77% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 6% higher precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 4% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 80% for dissatisfaction rate and 74% for satisfaction rate.
 
-## ML Model 2: Random Forest Classifier
+### ML Model 2: Random Forest Classifier
 
 After both train and test datasets were pre-processed, Random Forest Classifier model was run to get prediction and actual outcomes with the accuracy of 86.59% for test dataset.
 
@@ -124,7 +124,7 @@ Classification Report
 
 The classification report for train datased showed that the accuracy rate is 87% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has 4% lower precision rate than 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 13% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 89% for dissatisfaction rate and 84% for satisfaction rate.
 
-## ML Model 3: Support Vector Machine
+### ML Model 3: Support Vector Machine
 
 After both train and test datasets were pre-processed, Support Vector Machine model was run to get prediction and actual outcomes with the accuracy of 87.07% for test dataset.
 
@@ -142,7 +142,7 @@ Classification Report
 
 The classification report for train datased showed that the accuracy rate is 87% which is very close to accuracy rate of test dataset. 0 i.e. neutral or dissatisfaction has an equivalent precision rate as 1 i.e. satisfaction rate and neutral or dissatisfaction rate has 7% higher recall rate than satisfaction rate. The f1-score, which is harmonic mean between precision and recall rate is 89% for dissatisfaction rate and 85% for satisfaction rate.
 
-## ROC and DET curve
+### ROC and DET curve
 
  * A receiver operating characteristic (ROC) and detection error tradeoff (DET) curves shows the diagnostic ability of a binary classifier system. The ROC curve is created by plotting the true positive rate (TPR) against the false positive rate (FPR). Whereas DET curve is a graphical plot of error rates for binary classification systems, false negative rate (FNR) vs. false positive rate (FPR). Area under the curve (AUC) vale also shows that the Random Forest Classifier has the highest capacity for predictions. 
 
