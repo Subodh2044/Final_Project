@@ -144,6 +144,11 @@ The classification report for train datased showed that the accuracy rate is 87%
 
 ## ML Models on Select Features with R>0.4 on satisfaction
 
+* Correlation Bar Plot for Feature Selection
+![correlation_barplot](images/correlation_barplot.png)
+
+* ML Results from the Select Features
+
 ![image](https://user-images.githubusercontent.com/70483866/108641716-6aaad980-7466-11eb-92aa-8011005d01c7.png)
 
 The random forest classifier reported the same consistent accuracy score of 86%, while the accuracy score decreased for the SVM model and increased for the Logistic Regression Model. The four features we included this time around included: Online boarding (R=0.5), class (R=0.49), type_of_travel (R=0.45), and inflight entertainment (R=0.4). We set an arbitrary threshold of R>0.4 in order to be included in the final select features. Whether it was 27 features or 4, the Random Forest Classifier stayed the most consistent with accuracy and also had the least number of false positives, in this case meaning 1,355 passengers were misclassified as being dissatisfied or neutral when they should have actually been classified as satisfied.
@@ -155,10 +160,6 @@ The random forest classifier reported the same consistent accuracy score of 86%,
 * Random Forest Classifier 
 * Consistent Accuracy of 86% with original 22 features and 4 features with R>0.4
 * Least # of False Positives
-
-* Correlation Bar Plot for Feature Selection
-
-![correlation_barplot](images/correlation_barplot.png)
 
 -Online boarding allows the passenger to check-in in advance of their flight using either the airline's website or app; online boarding is useful for both the passengers and airline staff as it reduces cost by requiring less paper and less staff at check-in counters and saves a lot of time, which in turn saves money for the airline and allows them to provide cheaper flights to customers; it's super convenient because the passenger no longer has to wait in a long line and can simply go straight to security once they arrive to the airport for their flight, saving hours of their time
 
