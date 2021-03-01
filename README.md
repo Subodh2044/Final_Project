@@ -154,13 +154,11 @@ The random forest classifier reported the same consistent accuracy score of 86%,
 
 * Random Forest Classifier 
 * Consistent Accuracy of 86% with original 22 features and 4 features with R>0.4
+* Least # of False Positives
 
-*Correlation Bar Plot for Feature Selection
+* Correlation Bar Plot for Feature Selection
 
 ![correlation_barplot](images/correlation_barplot.png)
-
-
-* Least # of False Positives
 
 -Online boarding allows the passenger to check-in in advance of their flight using either the airline's website or app; online boarding is useful for both the passengers and airline staff as it reduces cost by requiring less paper and less staff at check-in counters and saves a lot of time, which in turn saves money for the airline and allows them to provide cheaper flights to customers; it's super convenient because the passenger no longer has to wait in a long line and can simply go straight to security once they arrive to the airport for their flight, saving hours of their time
 
