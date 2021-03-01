@@ -76,9 +76,6 @@ Source : https://www.kaggle.com/teejmahal20/airline-passenger-satisfaction
 
 ![image](https://user-images.githubusercontent.com/70483866/109429306-bf97a400-79c0-11eb-9b4c-7cfc59d026c3.png)
 
-**Union two tables using pgAdmin4**
-
-![Union_two_tables](images/merge_and_createtable.png)
 
 ## Machine Learning Model
 
