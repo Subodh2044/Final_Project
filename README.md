@@ -145,6 +145,7 @@ The classification report for train datased showed that the accuracy rate is 87%
 ## ML Models on Select Features with R>0.4 on satisfaction
 
 * Correlation Bar Plot for Feature Selection
+
 ![correlation_barplot](images/correlation_barplot.png)
 
 * ML Results from the Select Features
